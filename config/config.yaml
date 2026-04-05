@@ -1,0 +1,20 @@
+scanner:
+  threads: 10
+  timeout: 5
+  retries: 3
+
+databases:
+  redis:
+    default_port: 6379
+  mysql:
+    default_port: 3306
+  postgresql:
+    default_port: 5432
+  mongodb:
+    default_port: 27017
+
+vulnerabilities:
+  - unauthorized_access
+  - weak_password
+  - sql_injection
+  - exposed_data
