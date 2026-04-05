@@ -1,0 +1,8 @@
+requests
+redis
+pymongo
+mysql-connector-python
+psycopg2-binary
+jinja2
+pyyaml
+colorama
